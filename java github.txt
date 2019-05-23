@@ -1,0 +1,91 @@
+package myfirstjavaproject;
+import java.util.Scanner;
+
+
+public class testclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//ADDING TWO NUMBER
+//System.out.println("HELLO\nVAIBHAV DUTT");
+//System.out.println("VAIBHAV DUTT");
+	System.out.println("ENTER THE FIRST NUMBER");
+Scanner input=new Scanner(System.in);
+double num1=input.nextDouble();
+Scanner x =new Scanner(System.in);
+System.out.println("ENTER SECOND NUMBER");
+double num2 = x.nextDouble();
+System.out.println("ENTER third NUMBER");
+Scanner q=new Scanner(System.in);
+double num3=q.nextDouble();
+System.out.println("ENTER FOURTH NUMBER");
+Scanner w=new Scanner(System.in);
+double num4=w.nextDouble();
+System.out.println("ENTER Fith NUMBER");
+Scanner t=new Scanner(System.in);
+double num5=w.nextDouble();
+System.out.println("ENTER SIxTH NUMBER");
+Scanner e=new Scanner(System.in);
+double num6=e.nextDouble();
+System.out.println("ENTER SEVENTH NUMBER");
+Scanner r=new Scanner(System.in);
+double num7=w.nextDouble();
+System.out.println("ENTER EIGHT NUMBER");
+Scanner y=new Scanner(System.in);
+double num8=y.nextDouble();
+
+//int num1,num2,add,div;
+//System.out.println("ENTER 1 NUMBER");
+//Scanner input=new Scanner(System.in);
+ //num1=input.nextInt();
+//System.out.println("ENTER SECOND NUMBER");
+//Scanner x =new Scanner(System.in);
+//num2=x.nextInt();
+
+//ADDITION
+//System.out.println("Sum of two number"+ (num1+num2));
+//DIVIDE
+//System.out.println("DIVISION OF TWO NUMBER =" +num1/num2);
+//4th problem
+//1.
+/*int num3;
+Scanner c=new Scanner(System.in);
+System.out.println("ENTER THE THIRD NUMBER");
+num3=c.nextInt();
+System.out.println(num1+(num2*num3));
+
+
+int num4;
+Scanner b=new Scanner(System.in);
+System.out.println("ENTER THE FOURTH NUMBER");
+num4=b.nextInt();
+int num5;
+Scanner n=new Scanner(System.in);
+num5=n.nextInt();
+int num6;
+Scanner m=new Scanner(System.in);
+num6=m.nextInt();
+
+System.out.println((num1+num2)%num3);
+System.out.println(num1+-num2*num3/num4);
+System.out.println(num1+-num2/num3*num4-num5%num6);*/
+
+//6.problem
+/*
+System.out.println("SUM of two number"+num1+num2);
+System.out.println("MOD of two number"+num1%num2);
+System.out.println("product of two number"+num1*num2);
+System.out.println("DIVISION of two number"+num1/num2);
+*/
+//7.problem
+/*for(int i=1;i<=10;i++)
+
+	System.out.println(num1+"*"+i+"="+num1*i);
+*/
+//9.
+ 
+System.out.println((num1*num2-num2*num2)/(num3-num4));
+
+//10.
+System.out.println(num1*(num2-(num3/num4)+(num3/num5)+(num3/num6)));
+}
